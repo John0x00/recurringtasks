@@ -5,7 +5,7 @@ php:
   - nightly
 install: ant generate-autoloader
 script:
-   - mkdir -p build/logs
+  - mkdir -p build/logs
   - ./build/tools/phpunit.phar --configuration ./build/phpunit.xml
 after_success:
   - travis_retry php vendor/tools/coveralls.phar
