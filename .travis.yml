@@ -3,4 +3,5 @@ php:
   - '5.6'
   - '7.0'
   - nightly
-script: ant
+install: ant generate-autoloader
+script: phpunit --configuration ./build/phpunit.xml
