@@ -8,4 +8,4 @@ script:
   - mkdir -p build/logs
   - ./build/tools/phpunit.phar --configuration ./build/phpunit.xml
 after_success:
-  - travis_retry php vendor/tools/coveralls.phar
+  - travis_retry php build/tools/coveralls.phar
