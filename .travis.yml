@@ -4,4 +4,4 @@ php:
   - '7.0'
   - nightly
 install: ant generate-autoloader
-script: phpunit --configuration ./build/phpunit.xml
+script: ./build/tools/phpunit.phar --configuration ./build/phpunit.xml
