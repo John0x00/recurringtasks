@@ -16,6 +16,7 @@
     <logging>
         <log type="coverage-html" target="coverage"/>
         <log type="testdox-html" target="testdox.html"/>
+        <log type="coverage-clover" target="logs/clover.xml"/>
     </logging>
 
     <filter>
